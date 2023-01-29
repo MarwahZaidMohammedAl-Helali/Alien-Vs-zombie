@@ -8,12 +8,8 @@
 // Phones: +60166287972 | +60109189556 | +601140088286 |
 // *********************************************************
 
-
-// TODO: Fill in the missing information above and delete this line
-
 #include <iostream>
 #include "pf/helper.h"
-//#include "pf/helper.cpp"
 #include <vector>    ///// this for vector;
 #include <cstdlib>  ////// this for rand();
 #include <iomanip>  ////// this for setw() ;

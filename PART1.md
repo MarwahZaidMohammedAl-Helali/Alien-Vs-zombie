@@ -56,6 +56,5 @@ List down the contribution of each group members.
 
 ## Problems Encountered & Solutions
 
-1. Responsible for configuring the game's default settings and zombie output, as well as creating the help menu and quit function.
-2. We had difficulty implementing the ability to move the alien around the game board, as it was difficult to determine the exact coordinates for each move. We fixed this problem by writing a function to determine the coordinates for each movement, and by keeping track of the alien’s current position.
+1. We had difficulty implementing the ability to move the alien around the game board, as it was difficult to determine the exact coordinates for each move. We fixed this problem by creating a function to determine the coordinates for each movement, and by keeping track of the alien’s current position.
 3. We encountered a problem when trying to prevent the overlapping of objects on the board, as it was difficult to determine the exact positions of objects since all the objects are randomly placed. We fixed this problem by creating a vector “POS” that stores the positions of each object on the board, and by using an “object_pos” function it checks whether the randomly generate position is empty or not.

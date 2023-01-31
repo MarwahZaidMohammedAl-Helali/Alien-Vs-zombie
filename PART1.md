@@ -26,6 +26,7 @@ List all the features not yet done. Remove this section if there are no incomple
 4. give the zombies the ability to move around the board as well as inflict damage on the alien whenever the alien is within their range.
 5. fix usability issues like Input Validation to insure a smooth operation.
 6. switch the controls of the game to w, a, s, d to provide a more familiar and natural experience.
+7. Add additional features and objects to the game to make it more interesting and unique.
 
 ## Additional Features
 
@@ -37,16 +38,24 @@ List down the contribution of each group members.
 
 ### Marwah
 
-1. Responsible for creating the control functions for the alien, as well as generating and managing the zombies on the game board.
+1. Creating the control functions for the alien
+2. Helping with confifuring the game default settings.
+3. Generating and managing the zombies on the game board as well as their stats like their life and attack.
 
 ### Thabit
 
-1. Responsible for generating the game board, as well as creating a vector to store the objects on the board and prevent overlaps.
+1. Generating the game board according to the specified number of rows and columns.
+2. fixing any problems with the random placment of the objects on the board.
+3. making sure that the correct cordenats of the Alien is always displayed even when it moves.
 
 ### Khalid
 
-1. Responsible for configuring the game's default settings, as well as creating the help menu and quit function.
+1. Configuring the game's default settings.
+2. Making sure that the zombies are printed correctly and each according to its number.
+3. Creating the help menu and quit function.
 
 ## Problems Encountered & Solutions
 
-Describe the problems encountered and provide the solutions / plan for the solutions.
+1. Responsible for configuring the game's default settings and zombie output, as well as creating the help menu and quit function.
+2. We had difficulty implementing the ability to move the alien around the game board, as it was difficult to determine the exact coordinates for each move. We fixed this problem by writing a function to determine the coordinates for each movement, and by keeping track of the alien’s current position.
+3. We encountered a problem when trying to prevent the overlapping of objects on the board, as it was difficult to determine the exact positions of objects since all the objects are randomly placed. We fixed this problem by creating a vector “POS” that stores the positions of each object on the board, and by using an “object_pos” function it checks whether the randomly generate position is empty or not.

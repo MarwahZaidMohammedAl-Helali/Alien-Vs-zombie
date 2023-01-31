@@ -2,7 +2,7 @@
 
 ## Video Demo
 
-Please provide the YouTube link to your [Video Demo]([https://youtube.com](https://www.youtube.com/watch?v=YhtRhMHp1H4)).
+Please provide the YouTube link to your [https://www.youtube.com/watch?v=YhtRhMHp1H4].
 
 ## Minimum Requirements
 

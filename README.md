@@ -10,9 +10,7 @@ Please provide the YouTube link to your [https://www.youtube.com/watch?v=YhtRhMH
 
 Provide instructions on how to compile your program, especially when it is non-trivial.
 
-```
-g++ main.cpp folder1\code.cpp folder2\code.cpp ......
-```
+g++ main.cpp Test\main.cpp ......
 
 ## User Manual
 
